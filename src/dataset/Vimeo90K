@@ -1,0 +1,7 @@
+This is a large-scale, high-quality video dataset, Vimeo90K. 
+This dataset consists of 89,800 video clips downloaded from vimeo.com, which covers large variaty of scenes and actions. 
+It is designed for the following four video processing tasks: temporal frame interpolation, video denoising, video deblocking, and video super-resolution.
+
+video super-resolution:
+The septuplet dataset consists of 91,701 7-frame sequences with fixed resolution 448 x 256, extracted from 39K selected video clips from Vimeo-90K.
+I have used the matlab script to downscale all frames by a factor of 4, and the downsampled frames are saved in `vimeo_septuplet_matlabLRx4`.
